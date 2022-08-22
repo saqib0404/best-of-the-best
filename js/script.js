@@ -35,6 +35,14 @@ function getInputValueById(inputId){
 document.getElementById('calculate-btn').addEventListener('click', function(){
     const perPlayerCost = getInputValueById("per-player-cost");
     document.getElementById('player-expense').innerText = perPlayerCost * playerCount;
-    // console.log(playerCount);
+})
 
+// Event listner to calculate Total Button
+document.getElementById('calculate-total-btn').addEventListener('click', function(){
+    const managerCost = getInputValueById("manager-cost");
+    const coachCost = getInputValueById("coach-cost")
+    const playerExpense = parseFloat(document.getElementById('player-expense').innerText);
+    
+    const totalExpense = managerCost + coachCost + playerExpense;
+    document.getElementById('total-expense').innerText = totalExpense;
 })
