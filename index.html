@@ -42,6 +42,7 @@
     <main>
         <section class="flex w-10/12 mx-auto gap-4 pb-20">
             <div class="grid grid-cols-3 gap-4">
+
                 <!-- Player 1 -->
                 <div class="bg-black border border-gray-500 ">
                     <div class="card-img">
@@ -50,7 +51,7 @@
                     <div class="card-details text-center text-white pb-4">
                         <h3 class="text-2xl font-semibold">Lionel Messi</h3>
                         <p class="mb-2">3 Goals - 2 Assists</p>
-                        <button class="bg-blue-900 hover:bg-blue-700 text-white font-medium px-10 py-1">Select</button>
+                        <button onclick="selectPlayer(this)" class="bg-blue-900 hover:bg-blue-700 text-white font-medium px-10 py-1">Select</button>
                     </div>
                 </div>
 
@@ -62,7 +63,7 @@
                     <div class="card-details text-center text-white pb-4">
                         <h3 class="text-2xl font-semibold">Neymar Jr.</h3>
                         <p class="mb-2">5 Goals - 6 Assists</p>
-                        <button class="bg-blue-900 hover:bg-blue-700 text-white font-medium px-10 py-1">Select</button>
+                        <button onclick="selectPlayer(this)" class="bg-blue-900 hover:bg-blue-700 text-white font-medium px-10 py-1">Select</button>
                     </div>
                 </div>
 
@@ -74,7 +75,7 @@
                     <div class="card-details text-center text-white pb-4">
                         <h3 class="text-2xl font-semibold">Kylian Mbappé</h3>
                         <p class="mb-2">4 Goals - 0 Assists</p>
-                        <button class="bg-blue-900 hover:bg-blue-700 text-white font-medium px-10 py-1">Select</button>
+                        <button onclick="selectPlayer(this)" class="bg-blue-900 hover:bg-blue-700 text-white font-medium px-10 py-1">Select</button>
                     </div>
                 </div>
 
@@ -86,7 +87,7 @@
                     <div class="card-details text-center text-white pb-4">
                         <h3 class="text-2xl font-semibold">Vítor Machado</h3>
                         <p class="mb-2">0 Goals - 0 Assists</p>
-                        <button class="bg-blue-900 hover:bg-blue-700 text-white font-medium px-10 py-1">Select</button>
+                        <button onclick="selectPlayer(this)" class="bg-blue-900 hover:bg-blue-700 text-white font-medium px-10 py-1">Select</button>
                     </div>
                 </div>
 
@@ -98,7 +99,7 @@
                     <div class="card-details text-center text-white pb-4">
                         <h3 class="text-2xl font-semibold">Sergio Ramos</h3>
                         <p class="mb-2">0 Goals - 0 Assists</p>
-                        <button class="bg-blue-900 hover:bg-blue-700 text-white font-medium px-10 py-1">Select</button>
+                        <button onclick="selectPlayer(this)" class="bg-blue-900 hover:bg-blue-700 text-white font-medium px-10 py-1">Select</button>
                     </div>
                 </div>
 
@@ -110,7 +111,7 @@
                     <div class="card-details text-center text-white pb-4">
                         <h3 class="text-2xl font-semibold">Renato Sanches</h3>
                         <p class="mb-2">1 Goals - 0 Assists</p>
-                        <button class="bg-blue-900 hover:bg-blue-700 text-white font-medium px-10 py-1">Select</button>
+                        <button onclick="selectPlayer(this)" class="bg-blue-900 hover:bg-blue-700 text-white font-medium px-10 py-1">Select</button>
                     </div>
                 </div>
 
@@ -122,7 +123,7 @@
                     <div class="card-details text-center text-white pb-4">
                         <h3 class="text-2xl font-semibold">Antoine Griezmann</h3>
                         <p class="mb-2">1 Goals - 0 Assists</p>
-                        <button class="bg-blue-900 hover:bg-blue-700 text-white font-medium px-10 py-1">Select</button>
+                        <button onclick="selectPlayer(this)" class="bg-blue-900 hover:bg-blue-700 text-white font-medium px-10 py-1">Select</button>
                     </div>
                 </div>
 
@@ -134,7 +135,7 @@
                     <div class="card-details text-center text-white pb-4">
                         <h3 class="text-2xl font-semibold">Gareth Bale</h3>
                         <p class="mb-2">2 Goals - 4 Assists</p>
-                        <button class="bg-blue-900 hover:bg-blue-700 text-white font-medium px-10 py-1">Select</button>
+                        <button onclick="selectPlayer(this)" class="bg-blue-900 hover:bg-blue-700 text-white font-medium px-10 py-1">Select</button>
                     </div>
                 </div>
 
@@ -146,7 +147,7 @@
                     <div class="card-details text-center text-white pb-4">
                         <h3 class="text-2xl font-semibold">Cristiano Ronaldo</h3>
                         <p class="mb-2">5 Goals - 8 Assists</p>
-                        <button class="bg-blue-900 hover:bg-blue-700 text-white font-medium px-10 py-1">Select</button>
+                        <button onclick="selectPlayer(this)" class="bg-blue-900 hover:bg-blue-700 text-white font-medium px-10 py-1">Select</button>
                     </div>
                 </div>
 
@@ -158,7 +159,7 @@
                     <div class="card-details text-center text-white pb-4">
                         <h3 class="text-2xl font-semibold">Alisson Becker</h3>
                         <p class="mb-2">15 Defends</p>
-                        <button class="bg-blue-900 hover:bg-blue-700 text-white font-medium px-10 py-1">Select</button>
+                        <button onclick="selectPlayer(this)" class="bg-blue-900 hover:bg-blue-700 text-white font-medium px-10 py-1">Select</button>
                     </div>
                 </div>
 
@@ -170,7 +171,7 @@
                     <div class="card-details text-center text-white pb-4">
                         <h3 class="text-2xl font-semibold">Marcelo Vieira</h3>
                         <p class="mb-2">0 Goals - 2 Assists</p>
-                        <button class="bg-blue-900 hover:bg-blue-700 text-white font-medium px-10 py-1">Select</button>
+                        <button onclick="selectPlayer(this)" class="bg-blue-900 hover:bg-blue-700 text-white font-medium px-10 py-1">Select</button>
                     </div>
                 </div>
 
@@ -182,7 +183,7 @@
                     <div class="card-details text-center text-white pb-4">
                         <h3 class="text-2xl font-semibold">Ángel Di María</h3>
                         <p class="mb-2">1 Goals - 1 Assists</p>
-                        <button class="bg-blue-900 hover:bg-blue-700 text-white font-medium px-10 py-1">Select</button>
+                        <button onclick="selectPlayer(this)" class="bg-blue-900 hover:bg-blue-700 text-white font-medium px-10 py-1">Select</button>
                     </div>
                 </div>
             </div>
@@ -235,6 +236,9 @@
     </footer>
     <!-- Footer ends here -->
 
+
+    <!-- Script -->
+    <script src="js/script.js"></script>
 </body>
 
 </html>
