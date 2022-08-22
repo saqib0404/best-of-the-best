@@ -1,22 +1,37 @@
-body{
+body {
     font-family: 'Manrope', sans-serif;
+    background-color: rgb(24, 23, 23);
 }
 
 /* Banner */
-header > section > h1{
+header>section>h1 {
     font-family: 'Berkshire Swash', cursive;
     position: relative;
 }
 
-.banner1{
+.banner1 {
     position: absolute;
-    width: 150px;  
+    width: 180px;
     left: 0;
-    bottom: 17.2rem;
+    top: 5.8rem;
 }
-.banner2{
+
+.banner2 {
     position: absolute;
-    width: 95px;  
+    width: 95px;
     left: 80%;
     top: 7rem;
+}
+
+.selected-players-area {
+    background-color: rgb(15, 15, 15);
+}
+.budget-area {
+    background-color: rgb(15, 15, 15);
+}
+
+input{
+    background-color: transparent;
+    border:  1px solid white;
+    padding: 1px 2px 1px 2px ;
 }
